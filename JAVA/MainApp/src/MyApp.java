@@ -1,4 +1,4 @@
-public class App {
+public class MyApp {
     public static void main(String[] args) throws Exception {
         // Déclaration d'un objet de création
         MyMarque Apple = new MyMarque("Apple"); // Création d'une nouvelle instance de classe
