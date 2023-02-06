@@ -14,4 +14,4 @@ public class MyCollect {
             System.out.println(tableau[i]);
         }
     }
-}
+} 

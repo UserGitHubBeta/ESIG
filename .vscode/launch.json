@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MyRectangle",
+            "request": "launch",
+            "mainClass": "MyRectangle",
+            "projectName": "ESIG_ea0f6174"
+        },
+        {
+            "type": "java",
             "name": "Launch MyCollect",
             "request": "launch",
             "mainClass": "MyCollect",
