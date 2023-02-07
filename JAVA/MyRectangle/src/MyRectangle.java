@@ -1,4 +1,5 @@
 public class MyRectangle {
+    //Création des différents affichages de résultat
     public static void main(String[] args) throws Exception {
         // Création d'une variable permettant d'enregistrer des nouvelles valeurs
         Rectangle rectangle1 = new Rectangle(4, 5);
@@ -8,7 +9,12 @@ public class MyRectangle {
         System.out.println("Est-ce un carré ? : " + rectangle1.estCeUnCarre());
         System.out.print("La couleur est : " + rectangle1.getCouleur());
 
-        Rectangle rectangle2 = new Rectangle(7, 7);
+        
+        /*
+         * A partir de la class "boolean" dans estUnCarre() si la largeur = hauteur
+         * La valeur est true dans la réponse (ligne "Est-ce un carré ?")
+         */
+        Rectangle rectangle2 = new Rectangle(9, 7);
         rectangle2.setCouleur("vert");
         System.out.println("Le périmètre de rectangle2 est : " + rectangle2.calculerPerimetre());
         System.out.println("La surface de rectangle2 est : " + rectangle2.calculerSurface());
@@ -29,7 +35,7 @@ class Rectangle {
     private int hauteur;
     private String couleur = "noir";
 
-    // Création d'une instance incluant les variables et update des valeurs
+    // Création d'un constructeur instance incluant les variables et update des valeurs
     public Rectangle(int largeur, int hauteur) {
         this.largeur = largeur;
         this.hauteur = hauteur;

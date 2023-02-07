@@ -28,6 +28,7 @@ public class MyCarApp {
 class MyVehicule {
     void StartCar() {
     System.out.println("Démarrage du véhicule !");
+    System.out.println();
     }
 }
 
