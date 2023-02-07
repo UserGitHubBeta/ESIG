@@ -6,41 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch App",
-            "request": "launch",
-            "mainClass": "App",
-            "projectName": "ESIG_308c951d"
-        },
-        {
-            "type": "java",
-            "name": "Launch MyRectangle",
-            "request": "launch",
-            "mainClass": "MyRectangle",
-            "projectName": "ESIG_ea0f6174"
-        },
-        {
-            "type": "java",
-            "name": "Launch MyCollect",
-            "request": "launch",
-            "mainClass": "MyCollect",
-            "projectName": "ESIG_ea0f6174"
-        },
-        {
-            "type": "java",
-            "name": "Launch MyCarApp",
-            "request": "launch",
-            "mainClass": "MyCarApp",
-            "projectName": "ESIG_ea0f6174"
-        },
-        {
-            "type": "java",
-            "name": "Launch App",
-            "request": "launch",
-            "mainClass": "App",
-            "projectName": "ESIG_ea0f6174"
-        },
-        {
-            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
