@@ -1,0 +1,15 @@
+#GlobalHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+label {
+    display: block;
+    width: 150px;
+    float: left;
+}
+
+form .ButtonForm {
+    margin-top: 20px;
+}
