@@ -1,0 +1,72 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;	
+	margin: 0;
+}
+
+header {
+	width: 100%;
+	height: 15%;
+	background-color: #FFDA8C;
+}
+
+header nav {
+	height: 100%;
+}
+
+header ul {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	list-style:none;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	font-family: Verdana, Arial, System;
+	font-size: 150%;
+}
+
+section {
+	width: 100%;
+	height: 70%;
+	background-color: #FFEFB6;
+	overflow: auto;
+}
+
+footer {
+	width: 100%;
+	height: 15%;
+	display: flex;
+	background-color: #FFDA8C;
+	justify-content: space-between;
+	align-items: center;
+}
+
+article {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+article .mise_en_evidence {
+	color: red;
+	font-weight: italic;
+}
+
+article h1 {
+	color: red;
+	font-size: 200%;
+}
+
+article h2 {
+	color: blue;	
+	font-style: italic;
+}
+
+article .reference {
+	text-align: right;
+	font-size: 12px;
+	font-style: italic;
+}
