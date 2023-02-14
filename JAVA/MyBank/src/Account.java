@@ -12,6 +12,9 @@ public class Account {
         return accountNumber + " , " + balance;
     }
 
+    public double getBalance() {
+        return balance;
+    }
 }
 
 class AccountTest {
@@ -22,5 +25,6 @@ class AccountTest {
     public static void testerAffichage() {
         Account account1 = new Account("A1");
         System.out.println("Voici mon compte: " + account1.toString());
+        System.out.println(getBalance());
     }
 }
