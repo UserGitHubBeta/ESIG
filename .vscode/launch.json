@@ -40,8 +40,5 @@
             "mainClass": "App",
             "projectName": "ESIG_68ba29e"
         },
-        {
-            "python": "${command:python.interpreterPath}"
-        }
     ],
 }
