@@ -38,7 +38,21 @@
             "name": "Launch App",
             "request": "launch",
             "mainClass": "App",
-            "projectName": "ESIG_68ba29e"
+            "projectName": "ESIG_308c951d"
         },
+        {
+            "type": "java",
+            "name": "Launch MyRectangle",
+            "request": "launch",
+            "mainClass": "MyRectangle",
+            "projectName": "ESIG_308c951d"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "ESIG_68ba29e"
+        }
     ],
 }
