@@ -1,0 +1,111 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+DemoConnexionSQL
+</name>
+</assembly>
+<members>
+<member name="T:DemoConnexionSQL.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:DemoConnexionSQL.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:DemoConnexionSQL.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:DemoConnexionSQL._Article_FournisseurDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:DemoConnexionSQL._Article_FournisseurDataSet.ArticleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DemoConnexionSQL._Article_FournisseurDataSet.FournisseurDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:DemoConnexionSQL._Article_FournisseurDataSet.ArticleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DemoConnexionSQL._Article_FournisseurDataSet.FournisseurRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:DemoConnexionSQL._Article_FournisseurDataSet.ArticleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DemoConnexionSQL._Article_FournisseurDataSet.FournisseurRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:DemoConnexionSQL._Article_FournisseurDataSetTableAdapters.ArticleTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DemoConnexionSQL._Article_FournisseurDataSetTableAdapters.FournisseurTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:DemoConnexionSQL._Article_FournisseurDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:DemoConnexionSQL._Article_FournisseurDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(DemoConnexionSQL._Article_FournisseurDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:DemoConnexionSQL._Article_FournisseurDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(DemoConnexionSQL._Article_FournisseurDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:DemoConnexionSQL._Article_FournisseurDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(DemoConnexionSQL._Article_FournisseurDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:DemoConnexionSQL._Article_FournisseurDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:DemoConnexionSQL._Article_FournisseurDataSetTableAdapters.TableAdapterManager.UpdateAll(DemoConnexionSQL._Article_FournisseurDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:DemoConnexionSQL._Article_FournisseurDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:DemoConnexionSQL._Article_FournisseurDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
