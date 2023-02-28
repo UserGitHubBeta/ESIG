@@ -6,10 +6,10 @@ PROGSUBREV=42
 DATEBEG=01.01.2023
 DATEEND=31.12.2023
 FLAGS=5678081
-TITLE=PRGE
+TITLE=Test 2
 
 BEGIN=PATHS
-\\nasedu01.ge-pedago.etat-ge.ch\USR\__ELV\LOIC.AGST\Documents\ESIG\PRGE\PRGE 2023.cre
+\\nasedu01.ge-pedago.etat-ge.ch\USR\__ELV\LOIC.AGST\Documents\ESIG\PRGE\Test 2.cre
 END=PATHS
 
 BEGIN=LANGUAGES
@@ -385,7 +385,7 @@ AQ=0
 ENTRY
 NUM=33
 NAME=TAUX1
-TAUX=0.000000
+TAUX=3.600000
 COMPTE=2200
 PCTDEDUCT=100.000000
 COMMENT=Livraison et prestations de services au 1er taux
@@ -396,7 +396,7 @@ AQ=0
 ENTRY
 NUM=34
 NAME=TAUX2
-TAUX=0.000000
+TAUX=3.600000
 COMPTE=2200
 PCTDEDUCT=100.000000
 COMMENT=Livraison et prestations de services au 2ème taux
@@ -482,40 +482,40 @@ END=CENTERS
 
 BEGIN=VATEQUIV
 IPMRED	VSMDRED
-DIVERS	DIVERS
 DIMCPHEB	EGMINHOT
-MF1	MF1
-TVA	UST
-TAUX1	SATZ1
+DIVERS	DIVERS
 IPHOT	VSHOT
-MF2	MF2
+TAUX1	SATZ1
+TVA	UST
+MF1	MF1
 DIMCPRED	EGMINRED
-IPMNAT	VSURP
+MF2	MF2
 DEGR	ELENTS
+IPMNAT	VSURP
 TAUX2	SATZ2
-TVAOPT	USTOPT
-TRANS	UIM
-TVAHEB	USTHEB
 APSET100	BDA100
-MC2	SA2
+TVAHEB	USTHEB
+TRANS	UIM
+TVAOPT	USTOPT
 CORRED	VSKRED
+MC2	SA2
 MC1	SA1
-IPFREP	VSREPR
 APSETR	BDA
-EXONERE	SBFL
-PSETR	LSAUSL
+IPFREP	VSREPR
 IPIRED	VSIBRED
-DIMCP	EGMIN
+PSETR	LSAUSL
+EXONERE	SBFL
 IPHEB	VSHEB
-PAVEH	AWGEB
-IPM	VSMD
+DIMCP	EGMIN
 EXCLU	FREI
-TVARED	USTRED
-COR	VSK
+IPM	VSMD
+PAVEH	AWGEB
 TVAOPTRED	USTOPTRED
+COR	VSK
+TVARED	USTRED
 EXPORT	EXPORT
-REDDED	VSKRZ
 IPI	VSIB
+REDDED	VSKRZ
 END=VATEQUIV
 
 
@@ -685,8 +685,8 @@ DEBITORCREDITOR=0
 
 ENTRY
 NUM=1003
-NAME=Banque
-NAME.0=Banque
+NAME=Caisse EUR
+NAME.0=Caisse EUR
 NAME.1=Kasse EUR
 NAME.2=Petty cash CHF
 CAT=2
@@ -705,8 +705,8 @@ DEBITORCREDITOR=0
 
 ENTRY
 NUM=1004
-NAME=Mobilier
-NAME.0=Mobilier
+NAME=Caisse en devise étrangère A
+NAME.0=Caisse en devise étrangère A
 NAME.1=Kasse Fremdwährung A
 NAME.2=Petty cash EUR
 CAT=2
@@ -4789,8 +4789,8 @@ DEBITORCREDITOR=0
 
 ENTRY
 NUM=1510
-NAME=Mobilier
-NAME.0=Mobilier
+NAME=Mobilier et installations
+NAME.0=Mobilier et installations
 NAME.1=Mobiliar und Einrichtungen
 NAME.2=Furniture for operations
 CAT=2
@@ -5762,8 +5762,8 @@ DEBITORCREDITOR=0
 
 ENTRY
 NUM=1600
-NAME=Immeuble
-NAME.0=Immeuble
+NAME=Immeubles d’exploitation
+NAME.0=Immeubles d’exploitation
 NAME.1=Geschäftsliegenschaften
 NAME.2=Commercial properties
 CAT=2
@@ -9052,8 +9052,8 @@ DEBITORCREDITOR=0
 
 ENTRY
 NUM=2210
-NAME=Autres dettes
-NAME.0=Autres dettes
+NAME=Autres dettes envers des tiers
+NAME.0=Autres dettes envers des tiers
 NAME.1=Verbindlichkeiten gegenüber Dritten
 NAME.2=Liabilities towards third parties
 CAT=4
@@ -11830,8 +11830,8 @@ DEBITORCREDITOR=0
 
 ENTRY
 NUM=2800
-NAME=Capital propre
-NAME.0=Capital propre
+NAME=Capital-actions / parts sociales / capital de fondation / capital-participation
+NAME.0=Capital-actions / parts sociales / capital de fondation / capital-participation
 NAME.1=Aktienkapital Kategorie A
 NAME.2=Share-capital Category A
 CAT=4
