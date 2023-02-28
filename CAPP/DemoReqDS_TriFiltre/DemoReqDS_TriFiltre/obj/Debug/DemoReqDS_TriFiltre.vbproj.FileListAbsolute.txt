@@ -12,3 +12,17 @@ G:\ESII-Uldry\ESIG\Distribution\2022_2023\ESIG-1\CAPP\eb-Gr1\DemoReqDS_TriFiltre
 G:\ESII-Uldry\ESIG\Distribution\2022_2023\ESIG-1\CAPP\eb-Gr1\DemoReqDS_TriFiltre\DemoReqDS_TriFiltre\obj\Debug\DemoReqDS_TriFiltre.xml
 G:\ESII-Uldry\ESIG\Distribution\2022_2023\ESIG-1\CAPP\eb-Gr1\DemoReqDS_TriFiltre\DemoReqDS_TriFiltre\obj\Debug\DemoReqDS_TriFiltre.pdb
 G:\ESII-Uldry\ESIG\Distribution\2022_2023\ESIG-1\CAPP\eb-Gr1\DemoReqDS_TriFiltre\DemoReqDS_TriFiltre\obj\Debug\DemoReqDS_TriFiltre.FrmDemo.resources
+\\nasedu01.ge-pedago.etat-ge.ch\USR\__ELV\LOIC.AGST\Documents\ESIG\CAPP\DemoReqDS_TriFiltre\DemoReqDS_TriFiltre\bin\Debug\EmployeDepartement.mdf
+\\nasedu01.ge-pedago.etat-ge.ch\USR\__ELV\LOIC.AGST\Documents\ESIG\CAPP\DemoReqDS_TriFiltre\DemoReqDS_TriFiltre\bin\Debug\EmployeDepartement_log.ldf
+\\nasedu01.ge-pedago.etat-ge.ch\USR\__ELV\LOIC.AGST\Documents\ESIG\CAPP\DemoReqDS_TriFiltre\DemoReqDS_TriFiltre\bin\Debug\DemoReqDS_TriFiltre.exe.config
+\\nasedu01.ge-pedago.etat-ge.ch\USR\__ELV\LOIC.AGST\Documents\ESIG\CAPP\DemoReqDS_TriFiltre\DemoReqDS_TriFiltre\bin\Debug\DemoReqDS_TriFiltre.exe
+\\nasedu01.ge-pedago.etat-ge.ch\USR\__ELV\LOIC.AGST\Documents\ESIG\CAPP\DemoReqDS_TriFiltre\DemoReqDS_TriFiltre\bin\Debug\DemoReqDS_TriFiltre.pdb
+\\nasedu01.ge-pedago.etat-ge.ch\USR\__ELV\LOIC.AGST\Documents\ESIG\CAPP\DemoReqDS_TriFiltre\DemoReqDS_TriFiltre\bin\Debug\DemoReqDS_TriFiltre.xml
+\\nasedu01.ge-pedago.etat-ge.ch\USR\__ELV\LOIC.AGST\Documents\ESIG\CAPP\DemoReqDS_TriFiltre\DemoReqDS_TriFiltre\obj\Debug\DemoReqDS_TriFiltre.vbproj.AssemblyReference.cache
+\\nasedu01.ge-pedago.etat-ge.ch\USR\__ELV\LOIC.AGST\Documents\ESIG\CAPP\DemoReqDS_TriFiltre\DemoReqDS_TriFiltre\obj\Debug\DemoReqDS_TriFiltre.FrmDemo.resources
+\\nasedu01.ge-pedago.etat-ge.ch\USR\__ELV\LOIC.AGST\Documents\ESIG\CAPP\DemoReqDS_TriFiltre\DemoReqDS_TriFiltre\obj\Debug\DemoReqDS_TriFiltre.Resources.resources
+\\nasedu01.ge-pedago.etat-ge.ch\USR\__ELV\LOIC.AGST\Documents\ESIG\CAPP\DemoReqDS_TriFiltre\DemoReqDS_TriFiltre\obj\Debug\DemoReqDS_TriFiltre.vbproj.GenerateResource.cache
+\\nasedu01.ge-pedago.etat-ge.ch\USR\__ELV\LOIC.AGST\Documents\ESIG\CAPP\DemoReqDS_TriFiltre\DemoReqDS_TriFiltre\obj\Debug\DemoReqDS_TriFiltre.vbproj.CoreCompileInputs.cache
+\\nasedu01.ge-pedago.etat-ge.ch\USR\__ELV\LOIC.AGST\Documents\ESIG\CAPP\DemoReqDS_TriFiltre\DemoReqDS_TriFiltre\obj\Debug\DemoReqDS_TriFiltre.exe
+\\nasedu01.ge-pedago.etat-ge.ch\USR\__ELV\LOIC.AGST\Documents\ESIG\CAPP\DemoReqDS_TriFiltre\DemoReqDS_TriFiltre\obj\Debug\DemoReqDS_TriFiltre.xml
+\\nasedu01.ge-pedago.etat-ge.ch\USR\__ELV\LOIC.AGST\Documents\ESIG\CAPP\DemoReqDS_TriFiltre\DemoReqDS_TriFiltre\obj\Debug\DemoReqDS_TriFiltre.pdb

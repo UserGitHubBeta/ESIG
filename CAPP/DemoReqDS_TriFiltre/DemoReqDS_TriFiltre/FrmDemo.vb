@@ -15,7 +15,12 @@
     End Sub
 
     Private Sub efFonction_Leave(sender As Object, e As EventArgs) Handles efFonction.Leave
-        tbSalMaxFonc.Text = Format(EmployeTableAdapter.rqtSalMaxFonc(efFonction.Text), "#,##0.00 CHF")
+        If efFonction.Text = "" Then
+            MessageBox.Show("Ce champ ne peut être vide !")
+            efFonction.Focus()
+        Else
+            tbSalMaxFonc.Text = Format(EmployeTableAdapter.rqtSalMaxFonc(efFonction.Text), "#,##0.00 CHF")
+        End If
     End Sub
 
     Private Sub btnTri_Click(sender As Object, e As EventArgs) Handles btnTri.Click
