@@ -38,6 +38,13 @@
             "name": "Launch Billeterie",
             "request": "launch",
             "mainClass": "Billeterie",
+            "projectName": "ESIG_68ba29e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Billeterie",
+            "request": "launch",
+            "mainClass": "Billeterie",
             "projectName": "ESIG_ea0f6174"
         },
         {
