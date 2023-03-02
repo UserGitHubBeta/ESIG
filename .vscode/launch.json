@@ -35,38 +35,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "App",
-            "request": "launch",
-            "mainClass": "App",
-            "projectName": "ESIG_ea0f6174"
-        },
-        {
-            "type": "java",
-            "name": "Launch Billeterie",
-            "request": "launch",
-            "mainClass": "Billeterie",
-            "projectName": "ESIG_68ba29e"
-        },
-        {
-            "type": "java",
-            "name": "Launch Billeterie",
+            "name": "Billeterie",
             "request": "launch",
             "mainClass": "Billeterie",
             "projectName": "ESIG_ea0f6174"
-        },
-        {
-            "type": "java",
-            "name": "Launch ClientTest",
-            "request": "launch",
-            "mainClass": "ClientTest",
-            "projectName": "ESIG_ea0f6174"
-        },
-        {
-            "type": "java",
-            "name": "Launch App",
-            "request": "launch",
-            "mainClass": "App",
-            "projectName": "ESIG_68ba29e"
         }
     ],
 }
