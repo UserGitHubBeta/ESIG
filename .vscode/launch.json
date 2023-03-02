@@ -35,6 +35,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "ESIG_ea0f6174"
+        },
+        {
+            "type": "java",
             "name": "Launch Billeterie",
             "request": "launch",
             "mainClass": "Billeterie",
