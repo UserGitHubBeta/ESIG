@@ -1,6 +1,7 @@
 public class Salle {
     // Créer une variable appartenant à une classe mère
     String nomSalle;
+    // Importation de la classe "Ville" pour l'utiliser dans cette classe
     Ville ville;
     double largeurSalle;
     double longeurSalle;

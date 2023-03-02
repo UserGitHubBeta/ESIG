@@ -1,17 +1,27 @@
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class Concert {
+    // Importation de la classe "Salle" pour l'utiliser dans cette classe
     Salle salle;
     String nomArtiste;
-    LocalDate date;
+    LocalDate date; // Application du format date "YYYY-MM-DD"
     boolean complet;
     int nbTicketsVendus;
 
-    public Concert(String nomArtiste, int annee, int mois, int jour, boolean complet,
-            int nbTicketsVendus, Salle salle) {
+    @Override
+    public String toString() {
+        DateTimeFormatter FormatDate = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        String NouvelleDate = FormatDate.format(date);
+
+        return nomArtiste + " " + NouvelleDate + " " + nbTicketsVendus;
+    }
+
+    public Concert(String nomArtiste, int annee, int mois, int jour, boolean complet, int nbTicketsVendus,
+            Salle salle) {
         this.nomArtiste = nomArtiste;
         this.complet = complet;
-        this.nbTicketsVendus = nbTicketsVendus;
+        this.nbTicketsVendus = 0;
         this.salle = salle;
         date = LocalDate.of(annee, mois, jour);
     }
