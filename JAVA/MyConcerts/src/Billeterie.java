@@ -2,7 +2,6 @@ public class Billeterie {
 
     public static boolean acheterBillet(Concert nomConcert) {
         if (nomConcert.nbTicketsVendus <= 8000) {
-            nomConcert.nbTicketsVendus += 1;
             return true;
         } else {
             return false;
@@ -28,9 +27,8 @@ public class Billeterie {
         System.out.println(stromae);
         System.out.println(angele);
 
-        for (int i = 0; i <= 8000; i++) {
-            System.out.println(acheterBillet(mozart));
-        }
+        // for (int i = 0; i <= 2; i++) {
+        //     System.out.println(acheterBillet(mozart));
+        // }
     }
-
 }

@@ -21,7 +21,7 @@ public class Concert {
             Salle salle) {
         this.nomArtiste = nomArtiste;
         this.complet = complet;
-        this.nbTicketsVendus = 0;
+        this.nbTicketsVendus = 8000 - nbTicketsVendus;
         this.salle = salle;
         date = LocalDate.of(annee, mois, jour);
     }
