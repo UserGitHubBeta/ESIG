@@ -35,6 +35,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "List",
+            "request": "launch",
+            "mainClass": "List",
+            "projectName": "ESIG_308c951d"
+        },
+        {
+            "type": "java",
             "name": "Billeterie",
             "request": "launch",
             "mainClass": "Billeterie",
