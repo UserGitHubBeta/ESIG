@@ -35,6 +35,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ALOEvents",
+            "request": "launch",
+            "mainClass": "ALOEvents",
+            "projectName": "ESIG_68ba29e"
+        },
+        {
+            "type": "java",
             "name": "List",
             "request": "launch",
             "mainClass": "List",

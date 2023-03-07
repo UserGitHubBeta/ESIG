@@ -18,7 +18,8 @@ public class List {
       System.out.printf("La somme de %d et de %d vaut %d\n", a, b, result);
 
       /*
-       * Vérification d'une entrée de chaîne de caractère avec un scanner de variable
+       * Vérification d'une entrée de chaîne de caractère avec un scanner de
+       * variable
        */
       System.out.println("Saisir votre login : ");
       String mot = scanner.next();
@@ -36,7 +37,9 @@ public class List {
     }
     /* ======================================================== */
 
-    scanTxt("\\\\nasedu01.ge-pedago.etat-ge.ch\\USR\\__ELV\\LOIC.AGST\\Documents\\ESIG\\JAVA\\MyScanner\\monTexte.txt");
+    // scanTxt("\\\\nasedu01.ge-pedago.etat-ge.ch\\USR\\__ELV\\LOIC.AGST\\Documents\\ESIG\\JAVA\\MyScanner\\monTexte.txt");
+    System.out.println(System.getProperty("user.dir"));
+    scanTxt("monTexte.txt");
   }
 
   /* Analyse et sortie des éléments d'un fichier avec un scanner */
@@ -58,7 +61,22 @@ public class List {
     }
   }
 
-  private static int AddNumber(int number) {
-    
+  private static double AddNumbers(double numbers) {
+    double sum = 0;
+
+    Scanner scanner = new Scanner(numbers);
+
+    while (scanner.hasNext()) {
+      if (scanner.hasNextDouble()) {
+        sum += scanner.nextDouble();
+      } else {
+        scanner.next();
+      }
+    }
+    return sum;
+
+    public Scanner(String numbers) {
+      
+    }
   }
 }
