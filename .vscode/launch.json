@@ -38,6 +38,13 @@
             "name": "List",
             "request": "launch",
             "mainClass": "List",
+            "projectName": "ESIG_68ba29e"
+        },
+        {
+            "type": "java",
+            "name": "List",
+            "request": "launch",
+            "mainClass": "List",
             "projectName": "ESIG_308c951d"
         },
         {
