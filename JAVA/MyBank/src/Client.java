@@ -3,17 +3,25 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 public class Client {
-    String accounts;
+    ArrayList<Account> accounts;
     String nomClient;
     String prenomClient;
-    String identifiantClient;
+    double identifiantClient;
     LocalDate dateNaissance;
 
-    public Client(String nomClient, String prenomClient, String identifiantClient, int annee, int mois, int jour) {
+    public Client(double identifiantClient, String nomClient, String prenomClient, int annee, int mois, int jour) {
+        this.identifiantClient = identifiantClient;
         this.nomClient = nomClient;
         this.prenomClient = prenomClient;
-        this.identifiantClient = identifiantClient;
         dateNaissance = LocalDate.of(annee, mois, jour);
+        /* mplémentation de la ArrayList dans le constructeur afin
+         * de le faire apparaître dans les nouveaux inputs introduis
+         */
+        accounts = new ArrayList<Account>();
+        /* 
+         * Appellationn de la méthode dans le constructeur situé dans le main
+         * mis à disposiion
+         */
     }
 
     // Ajout de la mention @Override pour surcharger une classe Java
@@ -27,12 +35,22 @@ public class Client {
         return nomClient + " " + prenomClient + " (" + identifiantClient + ")" + " " + dateMiseEnForme;
     }
 
-    public String getAccounts() {
+    // Créationn d'une arraylist sur la méthode getAccounts()
+    /*
+     * Cette méthode permet de récupérer les éléments d'une liste a partir
+     * d'une donnée mise en paramètre ou bien d'un fichier
+     */
+    public ArrayList<Account> getAccounts() {
         return accounts;
     }
 
-    public void addAccount(String accounts) {
-        System.out.println(accounts);
+    /*
+     * Création d'une méhode permettant d'ajouter les éléments un par un
+     * dans la liste mis à dispotiion
+     * Paramètre utilisé = account de la classe Account
+     */
+    public void addAccount(Account account) {
+        accounts.add(account);
     }
 }
 
@@ -40,26 +58,23 @@ class ClientTest {
     public static void main(String[] args) {
         // Utiliser la classe ClienTest avec l'addition de la méthode testerAffichage()
         ClientTest.testerAffichage();
-        // Implémentaetion de la méthode sans utilisation de la classe ClientTest
-        testerAffichage();
+        // Implémentaetion de la méthode sans utilisation de la classe ClientTests
+        testerCompteClient();
     }
 
     public static void testerAffichage() {
-        Client firstClient = new Client("James", "Bond", "007", 1980, 12, 12);
-
-        for (int i = 0; i < 10; i++) {
-            System.out.println("Client " + i + " " + firstClient);
-        }
+        Client firstClient = new Client(101, "James", "Bond", 1980, 12, 12);
+        System.out.println(firstClient);
     }
 
     private static void testerCompteClient()
     {
-        Client client = new Client(101,'Daniel','Smith',LocalDate.of(1980,6,5));
-        Account acc1 = new Account('A1');
+        Client client = new Client(101,"Daniel","Smith",1980,6,5);
+        Account acc1 = new Account("A1");
         client.addAccount(acc1);             
-        Account acc2 = new Account('A2');
+        Account acc2 = new Account("A2");
         client.addAccount(acc2);
-        System.out.println('Comptes: '  + client.getAccounts());
+        System.out.println("Comptes: "  + client.getAccounts());
     }
 }
 

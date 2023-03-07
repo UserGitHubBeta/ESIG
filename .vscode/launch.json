@@ -38,6 +38,13 @@
             "name": "ClientTest",
             "request": "launch",
             "mainClass": "ClientTest",
+            "projectName": "ESIG_308c951d"
+        },
+        {
+            "type": "java",
+            "name": "ClientTest",
+            "request": "launch",
+            "mainClass": "ClientTest",
             "projectName": "ESIG_68ba29e"
         },
         {
