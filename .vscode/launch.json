@@ -35,31 +35,45 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Billeterie",
-            "request": "launch",
-            "mainClass": "Billeterie",
-            "projectName": "ESIG_68ba29e"
-        },
-        {
-            "type": "java",
-            "name": "Launch Billeterie",
-            "request": "launch",
-            "mainClass": "Billeterie",
-            "projectName": "ESIG_ea0f6174"
-        },
-        {
-            "type": "java",
-            "name": "Launch ClientTest",
+            "name": "ClientTest",
             "request": "launch",
             "mainClass": "ClientTest",
-            "projectName": "ESIG_ea0f6174"
+            "projectName": "ESIG_308c951d"
         },
         {
             "type": "java",
-            "name": "Launch App",
+            "name": "ClientTest",
             "request": "launch",
-            "mainClass": "App",
+            "mainClass": "ClientTest",
             "projectName": "ESIG_68ba29e"
+        },
+        {
+            "type": "java",
+            "name": "ALOEvents",
+            "request": "launch",
+            "mainClass": "ALOEvents",
+            "projectName": "ESIG_68ba29e"
+        },
+        {
+            "type": "java",
+            "name": "List",
+            "request": "launch",
+            "mainClass": "List",
+            "projectName": "ESIG_68ba29e"
+        },
+        {
+            "type": "java",
+            "name": "List",
+            "request": "launch",
+            "mainClass": "List",
+            "projectName": "ESIG_308c951d"
+        },
+        {
+            "type": "java",
+            "name": "Billeterie",
+            "request": "launch",
+            "mainClass": "Billeterie",
+            "projectName": "ESIG_ea0f6174"
         }
     ],
 }
