@@ -35,6 +35,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "ESIG_ea0f6174"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "BankingSystem.src.App",
+            "projectName": "ESIG_ea0f6174"
+        },
+        {
+            "type": "java",
+            "name": "List",
+            "request": "launch",
+            "mainClass": "List",
+            "projectName": "ESIG_ea0f6174"
+        },
+        {
+            "type": "java",
             "name": "ClientTest",
             "request": "launch",
             "mainClass": "ClientTest",
