@@ -14,11 +14,12 @@ public class Client {
         this.nomClient = nomClient;
         this.prenomClient = prenomClient;
         dateNaissance = LocalDate.of(annee, mois, jour);
-        /* mplémentation de la ArrayList dans le constructeur afin
+        /*
+         * mplémentation de la ArrayList dans le constructeur afin
          * de le faire apparaître dans les nouveaux inputs introduis
          */
         accounts = new ArrayList<Account>();
-        /* 
+        /*
          * Appellationn de la méthode dans le constructeur situé dans le main
          * mis à disposiion
          */
@@ -67,14 +68,13 @@ class ClientTest {
         System.out.println(firstClient);
     }
 
-    private static void testerCompteClient()
-    {
-        Client client = new Client(101,"Daniel","Smith",1980,6,5);
+    private static void testerCompteClient() {
+        Client client = new Client(101, "Daniel", "Smith", 1980, 6, 5);
         Account acc1 = new Account("A1");
-        client.addAccount(acc1);             
+        client.addAccount(acc1);
         Account acc2 = new Account("A2");
         client.addAccount(acc2);
-        System.out.println("Comptes: "  + client.getAccounts());
+        System.out.println("Comptes: " + client.getAccounts());
     }
 }
 
