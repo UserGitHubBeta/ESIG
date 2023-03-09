@@ -99,7 +99,6 @@ class ClientTest {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
 }
 
