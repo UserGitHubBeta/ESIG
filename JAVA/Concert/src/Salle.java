@@ -1,16 +1,17 @@
-public class Salle {
-    Ville ville;
-    int largeurSalle;
-    int longeurSalle;
-    int largeurScène;
-    int longeurScène;
 
-    public Salle(Ville ville, int largeurSalle, int longeurSalle, int largeurScène, int longeurScène) {
+public class Salle {
+    private Ville ville;
+    private int largeurSalle;
+    private int longueurSalle;
+    private int largeurScene;
+    private int longueurScene;
+
+    public Salle(Ville ville, int largeurSalle, int longueurSalle, int largeurScene, int longueurScene) {
         this.ville = ville;
         this.largeurSalle = largeurSalle;
-        this.longeurSalle = longeurSalle;
-        this.largeurScène = largeurScène;
-        this.longeurScène = longeurScène;
+        this.longueurSalle = longueurSalle;
+        this.largeurScene = largeurScene;
+        this.longueurScene = longueurScene;
     }
 
     public Ville getVille() {
@@ -22,14 +23,10 @@ public class Salle {
     }
 
     public int getLongueurSalle() {
-        return longeurSalle;
+        return longueurSalle;
     }
 
-    public int getLargeurScene(){
-        return largeurScène;
-    }
+    public int getLargeurScene() { return largeurScene; }
 
-    public int getLongueurScene() {
-        return longeurScène;
-    }
+    public int getLongueurScene() { return longueurScene; }
 }

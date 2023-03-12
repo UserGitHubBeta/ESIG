@@ -1,13 +1,13 @@
 public class Ville {
-    String nomVille;
-    int nbSpecMax;
+    private String nom;
+    private double nbMaxSpectateursAuMetreCarre;
 
-    public Ville(String nomVille, int nbSpecMax) {
-        this.nomVille = nomVille;
-        this.nbSpecMax = nbSpecMax;
+    public Ville(String nom, double nbMaxSpectateursAuMetreCarre) {
+        this.nom = nom;
+        this.nbMaxSpectateursAuMetreCarre = nbMaxSpectateursAuMetreCarre;
     }
 
-    public double getNbSpecMax() {
-        return nbSpecMax;
+    public double getNbMaxSpectateursAuMetreCarre() {
+        return nbMaxSpectateursAuMetreCarre;
     }
 }
