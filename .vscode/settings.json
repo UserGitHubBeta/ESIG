@@ -1,8 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "JAVAEXO/BankingSystem/src",
-        "JAVA/MyScanner/src",
-        "JAVA/MyBank/src",
-        "JAVAEXO/ExoConcert/src"
+        "JAVA\\MyBank\\src",
+        "JAVA\\MyScanner\\src",
+        "JAVA\\Concert\\src"
     ]
 }
