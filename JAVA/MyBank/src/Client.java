@@ -11,11 +11,11 @@ public class Client {
     double identifiantClient;
     LocalDate dateNaissance;
 
-    public Client(double identifiantClient, String nomClient, String prenomClient, int annee, int mois, int jour) {
+    public Client(double identifiantClient, String nomClient, String prenomClient, LocalDate dateNaissance) {
         this.identifiantClient = identifiantClient;
         this.nomClient = nomClient;
         this.prenomClient = prenomClient;
-        dateNaissance = LocalDate.of(annee, mois, jour);
+        this.dateNaissance = dateNaissance;
         /*
          * mplémentation de la ArrayList dans le constructeur afin
          * de le faire apparaître dans les nouveaux inputs introduis
@@ -31,11 +31,10 @@ public class Client {
     @Override
     public String toString() {
         // Modification de la date apporté
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.mm.yyyy");
         // Déclaration de la variable qui va modifier la chaine de caractère de la date
-        String dateMiseEnForme = formatter.format(dateNaissance);
 
-        return nomClient + " " + prenomClient + " (" + identifiantClient + ")" + " " + dateMiseEnForme;
+        return identifiantClient + nomClient + prenomClient + formatter.format(dateNaissance);
     }
 
     // Créationn d'une arraylist sur la méthode getAccounts()
@@ -62,19 +61,13 @@ class ClientTest {
 
     public static void main(String[] args) {
         // Utiliser la classe ClienTest avec l'addition de la méthode testerAffichage()
-        ClientTest.testerAffichage();
         // Implémentaetion de la méthode sans utilisation de la classe ClientTests
         testerCompteClient();
         creerClientAvecComptes("ClientData.txt");
     }
 
-    public static void testerAffichage() {
-        Client firstClient = new Client(101, "James", "Bond", 1980, 12, 12);
-        System.out.println(firstClient);
-    }
-
     private static void testerCompteClient() {
-        Client client = new Client(101, "Daniel", "Smith", 1980, 6, 5);
+        Client client = new Client(0, null, null, "12.12.1980");
         Account acc1 = new Account("A1");
         client.addAccount(acc1);
         Account acc2 = new Account("A2");

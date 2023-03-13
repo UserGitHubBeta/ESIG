@@ -1,7 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "JAVA\\MyBank\\src",
-        "JAVA\\MyScanner\\src",
-        "JAVA\\Concert\\src"
+        "JAVA/MyScanner/src",
+        "JAVA/MyBank/src",
+        "JAVA/Concert/src"
     ]
 }
