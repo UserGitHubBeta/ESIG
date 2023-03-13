@@ -45,6 +45,41 @@
             "name": "ClientTest",
             "request": "launch",
             "mainClass": "ClientTest",
+            "projectName": "ESIG_b03d23cb"
+        },
+        {
+            "type": "java",
+            "name": "Account",
+            "request": "launch",
+            "mainClass": "Account",
+            "projectName": "ESIG_b03d23cb"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "ESIG_ea0f6174"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "BankingSystem.src.App",
+            "projectName": "ESIG_ea0f6174"
+        },
+        {
+            "type": "java",
+            "name": "List",
+            "request": "launch",
+            "mainClass": "List",
+            "projectName": "ESIG_ea0f6174"
+        },
+        {
+            "type": "java",
+            "name": "ClientTest",
+            "request": "launch",
+            "mainClass": "ClientTest",
             "projectName": "ESIG_308c951d"
         },
         {

@@ -1,6 +1,8 @@
+import java.io.File;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Client {
     ArrayList<Account> accounts;
@@ -9,16 +11,17 @@ public class Client {
     double identifiantClient;
     LocalDate dateNaissance;
 
-    public Client(double identifiantClient, String nomClient, String prenomClient, int annee, int mois, int jour) {
+    public Client(double identifiantClient, String nomClient, String prenomClient, LocalDate dateNaissance) {
         this.identifiantClient = identifiantClient;
         this.nomClient = nomClient;
         this.prenomClient = prenomClient;
-        dateNaissance = LocalDate.of(annee, mois, jour);
-        /* mplémentation de la ArrayList dans le constructeur afin
+        this.dateNaissance = dateNaissance;
+        /*
+         * mplémentation de la ArrayList dans le constructeur afin
          * de le faire apparaître dans les nouveaux inputs introduis
          */
         accounts = new ArrayList<Account>();
-        /* 
+        /*
          * Appellationn de la méthode dans le constructeur situé dans le main
          * mis à disposiion
          */
@@ -28,11 +31,10 @@ public class Client {
     @Override
     public String toString() {
         // Modification de la date apporté
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy/MM/dd");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd.mm.yyyy");
         // Déclaration de la variable qui va modifier la chaine de caractère de la date
-        String dateMiseEnForme = formatter.format(dateNaissance);
 
-        return nomClient + " " + prenomClient + " (" + identifiantClient + ")" + " " + dateMiseEnForme;
+        return identifiantClient + nomClient + prenomClient + formatter.format(dateNaissance);
     }
 
     // Créationn d'une arraylist sur la méthode getAccounts()
@@ -52,29 +54,44 @@ public class Client {
     public void addAccount(Account account) {
         accounts.add(account);
     }
+
 }
 
 class ClientTest {
+
     public static void main(String[] args) {
         // Utiliser la classe ClienTest avec l'addition de la méthode testerAffichage()
-        ClientTest.testerAffichage();
         // Implémentaetion de la méthode sans utilisation de la classe ClientTests
         testerCompteClient();
+        creerClientAvecComptes("ClientData.txt");
     }
 
-    public static void testerAffichage() {
-        Client firstClient = new Client(101, "James", "Bond", 1980, 12, 12);
-        System.out.println(firstClient);
-    }
-
-    private static void testerCompteClient()
-    {
-        Client client = new Client(101,"Daniel","Smith",1980,6,5);
+    private static void testerCompteClient() {
+        Client client = new Client(0, null, null, "12.12.1980");
         Account acc1 = new Account("A1");
-        client.addAccount(acc1);             
+        client.addAccount(acc1);
         Account acc2 = new Account("A2");
         client.addAccount(acc2);
-        System.out.println("Comptes: "  + client.getAccounts());
+        System.out.println("Comptes: " + client.getAccounts());
+    }
+
+    public static void creerClientAvecComptes(String ClientData) {
+
+        Client ClientMichelDoubier = new Client(102, "Michel", "Doubier", 1980, 12,
+                24);
+        System.out.println(ClientMichelDoubier);
+        Scanner sc_client = null;
+        // test de lecture du fichier
+        try {
+            sc_client = new Scanner(new File(ClientData));
+            while (sc_client.hasNext()) {
+                Account acc_Account = new Account(sc_client.nextLine());
+                ClientMichelDoubier.addAccount(acc_Account);
+                System.out.println(ClientMichelDoubier.getAccounts());
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }
 
