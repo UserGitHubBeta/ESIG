@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "JAVA/MyScanner/src",
         "JAVA/ERALOAvril2021/src",
-        "JAVA/MyBank/src"
+        "JAVA/MyBank/src",
+        "JAVA\\MyConcert\\src"
     ]
 }

@@ -35,6 +35,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Billeterie",
+            "request": "launch",
+            "mainClass": "Billeterie",
+            "projectName": "ESIG_308c951d"
+        },
+        {
+            "type": "java",
             "name": "ClientTest",
             "request": "launch",
             "mainClass": "ClientTest",
