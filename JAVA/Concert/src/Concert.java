@@ -21,9 +21,7 @@ public class Concert {
     }
 
     public boolean achatBillet() {
-        if (complet == true) { 
-            return false; 
-        }
+        if (complet == true) { return false; }
         int m2Salle = salle.getLargeurSalle() * salle.getLongueurSalle() - salle.getLargeurScene() * salle.getLongueurScene();
         int nbTricketsVendables = (int)(m2Salle * salle.getVille().getNbMaxSpectateursAuMetreCarre());
         if (nbTicketsVendus >= nbTricketsVendables) {

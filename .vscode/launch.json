@@ -35,6 +35,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ClientTest",
+            "request": "launch",
+            "mainClass": "Banque.src.ClientTest",
+            "projectName": "ESIG_ea0f6174"
+        },
+        {
+            "type": "java",
+            "name": "AccountTest",
+            "request": "launch",
+            "mainClass": "Banque.src.AccountTest",
+            "projectName": "ESIG_ea0f6174"
+        },
+        {
+            "type": "java",
+            "name": "MyRectangle",
+            "request": "launch",
+            "mainClass": "MyRectangle",
+            "projectName": "ESIG_ea0f6174"
+        },
+        {
+            "type": "java",
             "name": "Billeterie",
             "request": "launch",
             "mainClass": "Billeterie",

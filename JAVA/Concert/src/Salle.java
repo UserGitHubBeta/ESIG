@@ -29,9 +29,7 @@ public class Salle {
         return longueurSalle;
     }
 
-    public int getLargeurScene() { 
-        return largeurScene; }
+    public int getLargeurScene() { return largeurScene; }
 
-    public int getLongueurScene() { 
-        return longueurScene; }
+    public int getLongueurScene() { return longueurScene; }
 }

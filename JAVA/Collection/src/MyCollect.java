@@ -1,3 +1,4 @@
+package Collection.src;
 public class MyCollect {
     public static void main(String[] args) throws Exception {
         // Création d'une string "tableau" permettant de stocker 10 éléments dedans
